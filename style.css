@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.links{
+    gap: 24px;
+    padding: 8px;
+}
+
+.logo {
+    padding: 24px;
+    font-weight: bold;
+    display: flex;
+    color: white
+
+}
+
