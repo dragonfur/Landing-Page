@@ -72,3 +72,43 @@ button {
 #header-subtext {
     padding: 0 0 10px;
 }
+
+.white {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+#info {
+    font-weight: bold;
+    font-size: 36px;
+    padding: 24px
+}
+
+.imageblocks{
+    display: flex;
+    gap: 36px
+}
+
+.modules {
+    display: block;
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    max-width: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 40px;
+    background-color: #1F2937;
+    color: white;
+}
