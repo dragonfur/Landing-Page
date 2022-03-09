@@ -7,22 +7,21 @@ body {
 .header {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 0 450px 0 450px;
     background-color: #1F2937;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .top {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-between;
 }
 
 .bottom {
     display: flex;
-    justify-content: center;
-    gap: 48px;
-    padding: 48px 48px;
+    justify-content: space-between;
+    padding: 48px 0 48px;
+    color: #F9FAF8;
 }
 
 .left-stuff {
@@ -32,7 +31,7 @@ body {
 #main-text {
     font-weight: bold;
     font-size: 48px;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 ul {
@@ -43,7 +42,7 @@ ul {
 
 .links{
     gap: 24px;
-    padding: 8px; 
+    padding-top: 8px;
 }
 
 .logo {
@@ -57,4 +56,19 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 24px 8px 24px;;
+}
+
+#header-button {
+    border: none;
+}
+
+#header-subtext {
+    padding: 0 0 10px;
 }
