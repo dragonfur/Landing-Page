@@ -8,8 +8,31 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    justify-content: space-between;
     background-color: #1F2937;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 48px 48px;
+}
+
+.left-stuff {
+    max-width: 400px;
+}
+
+#main-text {
+    font-weight: bold;
+    font-size: 48px;
+    color: #F9FAF8
 }
 
 ul {
@@ -20,14 +43,18 @@ ul {
 
 .links{
     gap: 24px;
-    padding: 8px;
+    padding: 8px; 
 }
 
 .logo {
-    padding: 24px;
+    padding-top: 24px;
     font-weight: bold;
     display: flex;
     color: white
 
 }
 
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
