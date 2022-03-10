@@ -20,7 +20,7 @@ body {
 .bottom {
     display: flex;
     justify-content: space-between;
-    padding: 48px 0 48px;
+    padding: 48px 0 100px;
     color: #F9FAF8;
     gap: 48px;
 }
@@ -129,6 +129,27 @@ button {
 
 #quote-author {
     font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 100px;
+}
+
+.callcontent {
+    display: flex;
+    margin: 0;
+    padding: 24px 130px 24px 130px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    gap: 100px;
+    border-radius: 8px;
+}
+
+#text-call {
     font-weight: bold;
 }
 
