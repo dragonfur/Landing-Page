@@ -153,6 +153,11 @@ button {
     font-weight: bold;
 }
 
+#sign-up-button {
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+
 .footer {
     display: flex;
     justify-content: center;
